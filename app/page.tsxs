@@ -1,0 +1,27 @@
+type IData = {
+   title:string;
+   description:string;
+}
+const data:IData[]=[{title:"Hassan" , description:"Hello from Hassan"} ,
+ {title:"kamran" , description:"Hello from kamran"},
+ {title:"hussain" , description:"Hello from hussain"},
+ {title:"kasim" , description:"Hello from kasim"},
+ {title:"ahmad" , description:"Hello from ahmad"},
+ {title:"anas" , description:"Hello from anas"}
+
+
+
+]
+ {data.map
+((IData)=>(data))
+ }
+
+export default function Home() {
+  return (
+  <>
+  <div className="ParentContainer">
+  <div  className="ChildContainer">
+   <div className=""></div>
+
+  </div>
+  </div>
